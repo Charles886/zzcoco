@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T03:08:47.348Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="TX5xcGCbzkyuai2VtiQS" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-05T03:42:37.805Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="lMPxDs4YcVUvrYBL5tvB" version="14.1.1" type="github">
   <diagram id="eHl3Pnx0dC-pPQDBPnPY" name="Page-1">
     <mxGraphModel dx="981" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GB96E8nmfk6Ky5J-cWhC-1" value="事業處&lt;br&gt;勾選PA倉中要報廢品項，透過會計核算貨品金額" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="290" width="120" height="60" as="geometry" />
+        <mxCell id="GB96E8nmfk6Ky5J-cWhC-1" value="事業處透過WPOS條件勾選PA倉中要報廢的品項(idle&lt;span&gt;超過1-2月?&lt;/span&gt;)，透過會計核算貨品金額集結成清單。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="285" width="194" height="70" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GB96E8nmfk6Ky5J-cWhC-2" target="GB96E8nmfk6Ky5J-cWhC-34">
           <mxGeometry relative="1" as="geometry" />
@@ -27,12 +27,6 @@
             <mxPoint x="410" y="360" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GB96E8nmfk6Ky5J-cWhC-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GB96E8nmfk6Ky5J-cWhC-15" target="GB96E8nmfk6Ky5J-cWhC-77">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GB96E8nmfk6Ky5J-cWhC-15" value="事業處&lt;br&gt;透過WPOS決定哪些貨進PA倉(挑料UI)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="290" width="80" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GB96E8nmfk6Ky5J-cWhC-19" target="GB96E8nmfk6Ky5J-cWhC-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -52,19 +46,19 @@
           <mxGeometry x="20" y="412" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-41" value="資料來源：WPOS&amp;nbsp;&lt;br&gt;撈取條件：&lt;br&gt;1.PPSG &lt;br&gt;2.Lot &lt;br&gt;3.Location= PA6 &lt;br&gt;4.StockType = 1&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="10" y="160" width="120" height="90" as="geometry" />
+          <mxGeometry x="400" y="240" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-43" value="聯絡SAP 溝通Interface" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="140" y="623" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="GB96E8nmfk6Ky5J-cWhC-44" value="聯絡Marketing 溝通UI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="60" y="260" width="130" height="20" as="geometry" />
+        <mxCell id="GB96E8nmfk6Ky5J-cWhC-44" value="聯絡Marketing 溝通UI、挑選條件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="200" y="250" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-45" value="與智裕討論資料取得" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="140" y="190" width="120" height="20" as="geometry" />
+          <mxGeometry x="400" y="340" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-63" value="將要報廢的品項Staus&lt;br&gt;註記為啟動報廢流程中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="344" y="250" width="140" height="30" as="geometry" />
+          <mxGeometry x="450" y="390" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GB96E8nmfk6Ky5J-cWhC-64" target="GB96E8nmfk6Ky5J-cWhC-37">
           <mxGeometry relative="1" as="geometry" />
@@ -103,7 +97,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-77" value="PA倉" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="200" y="280" width="80" height="80" as="geometry" />
+          <mxGeometry x="20" y="280" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-80" value="建立eFoem&lt;br&gt;傳簽流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="460" y="427" width="80" height="30" as="geometry" />
