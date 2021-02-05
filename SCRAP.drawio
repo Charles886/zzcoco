@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T03:42:37.805Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="lMPxDs4YcVUvrYBL5tvB" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-05T03:43:45.568Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="YYNMmXYLP_5q7U9mS0za" version="14.1.1" type="github">
   <diagram id="eHl3Pnx0dC-pPQDBPnPY" name="Page-1">
     <mxGraphModel dx="981" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,8 +45,8 @@
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-37" value="報廢清單" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="412" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GB96E8nmfk6Ky5J-cWhC-41" value="資料來源：WPOS&amp;nbsp;&lt;br&gt;撈取條件：&lt;br&gt;1.PPSG &lt;br&gt;2.Lot &lt;br&gt;3.Location= PA6 &lt;br&gt;4.StockType = 1&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="400" y="240" width="120" height="90" as="geometry" />
+        <mxCell id="GB96E8nmfk6Ky5J-cWhC-41" value="資料來源：WPOS&amp;nbsp;&lt;br&gt;撈取條件：&lt;br&gt;1.PPSG &lt;br&gt;2.Lot &lt;br&gt;3.Location= PA?&lt;br&gt;4.StockType = 1&amp;nbsp;&lt;br&gt;5.Status = 可挑選" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="400" y="235" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-43" value="聯絡SAP 溝通Interface" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="140" y="623" width="140" height="20" as="geometry" />
