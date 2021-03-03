@@ -1,115 +1,214 @@
-<mxfile host="app.diagrams.net" modified="2021-02-18T08:50:08.694Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="OJE6-I2N7VYoX2xBNYUH" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T03:38:18.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="S83xVs90RxTQQDW0hv2b" version="14.4.2" type="github">
   <diagram id="eHl3Pnx0dC-pPQDBPnPY" name="Page-1">
-    <mxGraphModel dx="813" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1040" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GB96E8nmfk6Ky5J-cWhC-1" value="事業處透過WPOS條件勾選PA倉中要報廢的品項，透過會計核算貨品金額集結成清單。" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="200" y="285" width="194" height="70" as="geometry" />
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GB96E8nmfk6Ky5J-cWhC-1" target="GB96E8nmfk6Ky5J-cWhC-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GB96E8nmfk6Ky5J-cWhC-1" value="生管勾選已入PA倉的品項，透過會計核算貨品金額集結成清單。" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="380" y="462" width="194" height="70" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GB96E8nmfk6Ky5J-cWhC-2" target="GB96E8nmfk6Ky5J-cWhC-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-2" value="DS30人員取得&lt;br&gt;報廢清單，透過IMAS掃貨挑料" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5" y="553" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="693" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GB96E8nmfk6Ky5J-cWhC-3" target="GB96E8nmfk6Ky5J-cWhC-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-3" value="轉&lt;br&gt;原物料庫房" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="553" width="80" height="60" as="geometry" />
+          <mxGeometry x="335" y="693" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-4" value="通知廠商報廢" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="553" width="80" height="60" as="geometry" />
+          <mxGeometry x="465" y="693" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GB96E8nmfk6Ky5J-cWhC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="GB96E8nmfk6Ky5J-cWhC-1" target="GB96E8nmfk6Ky5J-cWhC-19" edge="1">
+        <mxCell id="GB96E8nmfk6Ky5J-cWhC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="GB96E8nmfk6Ky5J-cWhC-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="360" as="sourcePoint" />
+            <mxPoint x="425" y="507" as="sourcePoint" />
+            <mxPoint x="477" y="559" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GB96E8nmfk6Ky5J-cWhC-19" target="GB96E8nmfk6Ky5J-cWhC-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-19" value="啟動報廢簽核流程" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="370" y="412" width="80" height="60" as="geometry" />
+          <mxGeometry x="437" y="552" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GB96E8nmfk6Ky5J-cWhC-34" target="GB96E8nmfk6Ky5J-cWhC-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-34" value="依清單批次&lt;br&gt;啟動SAP報廢流程" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="180" y="553" width="80" height="60" as="geometry" />
+          <mxGeometry x="195" y="693" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GB96E8nmfk6Ky5J-cWhC-37" target="GB96E8nmfk6Ky5J-cWhC-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-37" value="報廢清單" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="412" width="90" height="60" as="geometry" />
+          <mxGeometry x="35" y="552" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GB96E8nmfk6Ky5J-cWhC-41" value="資料來源：WPOS&amp;nbsp;&lt;br&gt;撈取條件：&lt;br&gt;1.PPSG &lt;br&gt;2.Lot &lt;br&gt;3.Location= PA?&lt;br&gt;4.StockType = 1&amp;nbsp;&lt;br&gt;5.Status = 可挑選" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="400" y="235" width="120" height="100" as="geometry" />
+        <mxCell id="GB96E8nmfk6Ky5J-cWhC-41" value="資料來源：PA倉&amp;nbsp;&lt;br&gt;撈取條件：&lt;br&gt;1.PPSG &lt;br&gt;2.Lot &lt;br&gt;3.Location= PA?&lt;br&gt;4.StockType = 1&amp;nbsp;&lt;br&gt;5.Status = 可挑選&lt;br&gt;6.入PA倉原因" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="585" y="444" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-43" value="聯絡SAP 溝通Interface" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="140" y="623" width="140" height="20" as="geometry" />
+          <mxGeometry x="155" y="763" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="GB96E8nmfk6Ky5J-cWhC-44" value="Marketing 初步確認顯示欄位&lt;br&gt;須有 [入PA倉原因][idle時間]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="210" y="245" width="170" height="30" as="geometry" />
+        <mxCell id="GB96E8nmfk6Ky5J-cWhC-44" value="顯示欄位須有&lt;br&gt;&amp;nbsp;[入PA倉原因][idle時間]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="574" y="412" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-45" value="與智裕討論資料取得" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="400" y="340" width="120" height="20" as="geometry" />
+          <mxGeometry x="445" y="437" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-63" value="將要報廢的品項Staus&lt;br&gt;註記為啟動報廢流程中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="450" y="390" width="140" height="30" as="geometry" />
+          <mxGeometry x="555" y="622" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GB96E8nmfk6Ky5J-cWhC-64" target="GB96E8nmfk6Ky5J-cWhC-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-64" value="報廢傳簽" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="402" width="80" height="80" as="geometry" />
+          <mxGeometry x="215" y="542" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-71" value="" style="endArrow=none;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="510" as="sourcePoint" />
-            <mxPoint x="410" y="510" as="targetPoint" />
+            <mxPoint x="255" y="650" as="sourcePoint" />
+            <mxPoint x="480" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-44" value="Reject" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GB96E8nmfk6Ky5J-cWhC-71">
+          <mxGeometry x="-0.8888" y="1" relative="1" as="geometry">
+            <mxPoint x="97.5" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-72" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="GB96E8nmfk6Ky5J-cWhC-64" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="510" as="sourcePoint" />
-            <mxPoint x="240" y="470" as="targetPoint" />
+            <mxPoint x="255" y="650" as="sourcePoint" />
+            <mxPoint x="255" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-73" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="GB96E8nmfk6Ky5J-cWhC-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="510" as="sourcePoint" />
-            <mxPoint x="480" y="490" as="targetPoint" />
+            <mxPoint x="477" y="650" as="sourcePoint" />
+            <mxPoint x="495" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-74" value="Approve" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="452" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="GB96E8nmfk6Ky5J-cWhC-75" value="Reject" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="482" width="50" height="20" as="geometry" />
+          <mxGeometry x="140" y="585" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-76" value="&lt;font color=&quot;#990000&quot;&gt;金額需特殊需權限才能檢視，&lt;br&gt;需注意管理&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="249" y="510" width="170" height="30" as="geometry" />
+          <mxGeometry x="165" y="507" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GB96E8nmfk6Ky5J-cWhC-77" target="GB96E8nmfk6Ky5J-cWhC-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GB96E8nmfk6Ky5J-cWhC-77" target="OqLA2hoYVIPNASlhNLsA-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="455" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="225" y="457" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GB96E8nmfk6Ky5J-cWhC-77" value="PA倉" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="20" y="280" width="80" height="80" as="geometry" />
+          <mxGeometry x="35" y="457" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GB96E8nmfk6Ky5J-cWhC-80" value="建立eFoem&lt;br&gt;傳簽流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="460" y="427" width="80" height="30" as="geometry" />
+        <mxCell id="r-v4i6oHmTvbEhK4Sg-m-2" value="*入PA倉原因&lt;br&gt;需有範本&lt;span style=&quot;text-align: left&quot;&gt;讓User挑選&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="165" y="235" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r-v4i6oHmTvbEhK4Sg-m-2" value="*入PA倉原因&lt;br&gt;需有範本" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="245" width="80" height="30" as="geometry" />
+        <mxCell id="r-v4i6oHmTvbEhK4Sg-m-3" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;*Product Type:DRAM/FLASH&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;*Product Like/PartNo Like/Shape/Grade&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;*入PA倉原因&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="529" y="560" width="230" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="r-v4i6oHmTvbEhK4Sg-m-3" value="Marketing 初步確認 已入PA倉資料 Filter 條件&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;*Product Type:DRAM/FLASH&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;*Product Like/PartNo Like/Shape/Grade&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;*入PA倉原因&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="520" y="235" width="260" height="60" as="geometry" />
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-1" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;流程現況&lt;/span&gt;&lt;/div&gt;1.事業處由WPOS決定哪些入PA，篩選條件[idle lot],[slow lot],PPSG ...&lt;br&gt;2.輸入貨進PA Comment，啟動入PA倉簽核流程。&lt;br&gt;3.流程成功後由生管執行入PA倉。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="369" y="160" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="r-v4i6oHmTvbEhK4Sg-m-4" value="與生管討論存貨如何入PA倉" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="5" y="220" width="160" height="20" as="geometry" />
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OqLA2hoYVIPNASlhNLsA-2" target="OqLA2hoYVIPNASlhNLsA-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-2" value="啟動PA轉出&lt;br&gt;簽核流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="380" width="80" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OqLA2hoYVIPNASlhNLsA-9" target="OqLA2hoYVIPNASlhNLsA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-9" value="事業處" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="255" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-10" value="啟動入PA倉簽核流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="265" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OqLA2hoYVIPNASlhNLsA-13" target="GB96E8nmfk6Ky5J-cWhC-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="360" />
+              <mxPoint x="75" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-13" value="生管執行" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="660" y="255" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-16" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;來源現況&lt;/span&gt;&lt;/div&gt;*Flash - DC 超過2年先打J Grade，視情況入PA倉&lt;br&gt;*DownGrade or&amp;nbsp;DeGrade 需留下comment=&amp;gt;轉PD=&amp;gt;轉PA&lt;br&gt;[comment 需有範本讓User挑選]" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-21" value="待討論 簽核層級與簽核人員" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="314" y="240" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OqLA2hoYVIPNASlhNLsA-22" target="OqLA2hoYVIPNASlhNLsA-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-40" value="Approve" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OqLA2hoYVIPNASlhNLsA-24">
+          <mxGeometry x="-0.3109" relative="1" as="geometry">
+            <mxPoint x="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OqLA2hoYVIPNASlhNLsA-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="545" y="350" />
+              <mxPoint x="390" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-39" value="Reject" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OqLA2hoYVIPNASlhNLsA-38">
+          <mxGeometry x="-0.2194" relative="1" as="geometry">
+            <mxPoint x="-21" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-22" value="入PA倉傳簽" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="255" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OqLA2hoYVIPNASlhNLsA-10" target="OqLA2hoYVIPNASlhNLsA-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="434" y="295" as="sourcePoint" />
+            <mxPoint x="660" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OqLA2hoYVIPNASlhNLsA-27" target="OqLA2hoYVIPNASlhNLsA-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="408.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-41" value="Approve" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OqLA2hoYVIPNASlhNLsA-30">
+          <mxGeometry x="-0.3635" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="OqLA2hoYVIPNASlhNLsA-27" target="GB96E8nmfk6Ky5J-cWhC-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="477" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-43" value="Reject" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OqLA2hoYVIPNASlhNLsA-42">
+          <mxGeometry x="-0.1724" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqLA2hoYVIPNASlhNLsA-27" value="PA轉出傳簽" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="369" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
