@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T02:07:12.094Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="CHwibmJShhKDjDsUTV69" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-08T09:12:16.706Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="NTSW2MMWE4HML_l2V74n" version="14.5.8" type="github">
   <diagram id="eHl3Pnx0dC-pPQDBPnPY" name="Page-1">
     <mxGraphModel dx="1248" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -198,8 +198,8 @@
         <mxCell id="LsAjiTkR6S3BipIZlfAq-9" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;出PA倉流程&lt;/span&gt;&lt;/div&gt;1.事業處挑選已入PA倉之清單做轉出,需顯示[入PA倉原因]&lt;br&gt;&amp;nbsp; &amp;nbsp;篩選條件[idle lot flag],[slow lot flag],[Marketing Comment],[未銷售月份],PPSG,LotID,[MRB],[RMA],[De Grade],DC&lt;br&gt;2.Free Key in 貨出PA Comment，啟動出PA倉簽核流程。&lt;br&gt;===Trigger Lot PA Out Signing Flow=== 出PA倉簽核層級與簽核人員 區分Product Group&lt;br&gt;申請人Marketing Trigger[Flash:PN30 CM][DRAM:]=&amp;gt;生管副理=&amp;gt;申請人部主管=&amp;gt;申請人處長=&amp;gt;申請人中心主管&lt;br&gt;=&amp;gt;簽核完成(info 生管副理、庫房副理、會計、申請人、申請人部主管)&lt;br&gt;*報表Fuction =&amp;gt; 申請單上的LOT與Current 差異。&lt;br&gt;*要帶出成本，只顯示在關卡(生管副理)後。&lt;br&gt;&lt;br&gt;3.流程成功後由生管執行出PA倉。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="680" y="65" width="620" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="LsAjiTkR6S3BipIZlfAq-10" value="&lt;span style=&quot;text-align: left&quot;&gt;PA comment 範本？&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="40" y="40" width="120" height="20" as="geometry" />
+        <mxCell id="LsAjiTkR6S3BipIZlfAq-10" value="&lt;span style=&quot;text-align: left&quot;&gt;PA comment 範本 &lt;br&gt;1.down grade parts 2.客戶無需求&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="40" y="25" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
