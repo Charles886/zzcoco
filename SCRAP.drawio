@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-23T03:05:27.439Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="x7CQrQ_ITjH58syS0BvO" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-02T05:28:22.552Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="LD0awO2x4C3xriXyIb5P" version="14.9.3" type="github">
   <diagram id="eHl3Pnx0dC-pPQDBPnPY" name="Page-1">
-    <mxGraphModel dx="3504" dy="1183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2489" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -209,6 +209,9 @@
         </mxCell>
         <mxCell id="O6fru0RFgieJcCH9GHsH-5" value="回6206的預定單&lt;br&gt;有轉PA倉的Flag，&lt;br&gt;一旦完成後由SAP&lt;br&gt;自動開立預定單轉&lt;br&gt;入PA倉" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-120" y="447" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ugch9qfXAuUAdpnSAlEl-1" value="&lt;div&gt;報廢總表NO=&amp;gt;(1:N)Batch作業分批挑料與核對=&amp;gt; 等待Batch上的SAP預定單號與Ship NO回傳後(確認皆完成)=&amp;gt;Mail 報廢總表結果(每12小時一次)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-28" y="780" width="780" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
