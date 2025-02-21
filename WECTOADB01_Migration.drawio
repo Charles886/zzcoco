@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.15">
+  <diagram name="WECTOADB01_Migration" id="DxsMhTenSwoU7b58ceCd">
+    <mxGraphModel dx="1666" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eNjkzzWZp6tLp_5Vfl7Q-1" value="OADB01&lt;div&gt;&lt;b&gt;SQL&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2008&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="40" y="260" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eNjkzzWZp6tLp_5Vfl7Q-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;New OADB01&lt;/div&gt;&lt;div&gt;&lt;b&gt;SQL 2019&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="675" y="260" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eNjkzzWZp6tLp_5Vfl7Q-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="373" as="sourcePoint" />
+            <mxPoint x="650" y="373" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNjkzzWZp6tLp_5Vfl7Q-8" value="2011" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="35" y="388" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eNjkzzWZp6tLp_5Vfl7Q-9" value="2025/2/8" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="665" y="388" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eNjkzzWZp6tLp_5Vfl7Q-10" value="2023宣告" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="303" y="388" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eNjkzzWZp6tLp_5Vfl7Q-11" value="DX Highlight&lt;div&gt;原DB產品 EOL&lt;/div&gt;&lt;div&gt;有資安風險&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="288" y="243" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eNjkzzWZp6tLp_5Vfl7Q-12" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;2024規劃&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="484" y="388" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eNjkzzWZp6tLp_5Vfl7Q-14" value="DB plan修改&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;DB Schema&lt;/u&gt;&lt;/span&gt;&lt;div&gt;&lt;u style=&quot;background-color: light-dark(rgb(153, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;dbo=&amp;gt;IMAS,停用舊帳號&lt;br&gt;&lt;/font&gt;&lt;/u&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;符合D100管理規劃&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="416" y="243" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eNjkzzWZp6tLp_5Vfl7Q-15" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="338" y="370" as="sourcePoint" />
+            <mxPoint x="338" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNjkzzWZp6tLp_5Vfl7Q-16" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="497.5" y="370" as="sourcePoint" />
+            <mxPoint x="497.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNjkzzWZp6tLp_5Vfl7Q-17" value="DB啟用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
